@@ -1,4 +1,4 @@
-import { useRecipeStore } from './recipeStore';
+import { useRecipeStore } from './store/recipeStore';
 import { Link } from 'react-router-dom';
 import AddFavoriteButton from './AddFavoriteButton';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useRecipeStore } from './recipeStore';
+import { useRecipeStore } from './store/recipeStore';
 
 const AddFavoriteButton = ({ recipeId }) => {
   const favorites = useRecipeStore(state => state.favorites);
