@@ -1,6 +1,6 @@
 // EditRecipeForm.jsx
 import { useState } from 'react';
-import { useRecipeStore } from './store/recipeStore';
+import { useRecipeStore } from '../store/recipeStore';
 
 const EditRecipeForm = ({ recipe }) => {
   const [title, setTitle] = useState(recipe.title);
