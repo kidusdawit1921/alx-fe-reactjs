@@ -1,0 +1,21 @@
+.git-head {
+  text-align: center;
+  color:rgb(231, 231, 4);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 99px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.Search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border-radius: 10px;
+  border-color: yellow;
+  border-style: solid;
+  border-width: 2px;
+  background-color: yellow;
+  margin: 200px;
+}
